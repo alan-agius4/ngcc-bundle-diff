@@ -1,0 +1,21 @@
+{
+  "name": "ngcc-bundle-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngcc": "ivy-ngcc",
+    "clean-ngcc": "rm -rf node_modules/@angular/core && yarn install --check-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^7.2.1",
+    "@angular/compiler": "^7.2.1",
+    "@angular/compiler-cli": "^7.2.1",
+    "@angular/core": "^7.2.1",
+    "rxjs": "^6.3.3",
+    "typescript": "3.2"
+  }
+}
